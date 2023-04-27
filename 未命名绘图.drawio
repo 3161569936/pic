@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-27T09:22:13.573Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="phvZwCyhzyJoPm74phUQ" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-27T10:38:10.727Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="4ZRXWnG6KF58ZmQ8qU1M" version="21.2.1" type="github">
   <diagram name="第 1 页" id="S5CsdBfcWxi_x1L4hnpd">
     <mxGraphModel dx="1621" dy="1020" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -186,6 +186,84 @@
         </mxCell>
         <mxCell id="8aJ3rFpo03X7Fq3H-rf9-66" value="biz_id----------------------------------&amp;gt;业务唯一键&lt;br&gt;control_name----------&amp;gt;控件/自定义控件名称&lt;br&gt;control_type-------------&amp;gt;控件/自定义控件类型&lt;br&gt;enumerated_values-------&amp;gt;自定义控件枚举值&lt;br&gt;is_required--------&amp;gt;是否为必选控件，0、是，1、否&lt;br&gt;tab_item--&amp;gt;所属tab项，1访客基本信息，2被访人基本信息，3其它信息&lt;br&gt;check_rule-----------------------&amp;gt;字段校验规则&lt;br&gt;max_length----------------------&amp;gt;字段最大长度&lt;br&gt;min_length------------------------&amp;gt;字段最大长度&lt;br&gt;is_multiplexing----------&amp;gt;是否可以复用,1 表示是，0 表示否&lt;br&gt;is_edit--------------&amp;gt;控件名称是否可编辑 ，1 、是，0、&amp;nbsp; 否&lt;br&gt;control_desc---------------------------------------------&amp;gt;控件描述&lt;br&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="89.5" y="1430" width="375.5" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="8aJ3rFpo03X7Fq3H-rf9-67" value="邀约详情&lt;br&gt;(invite_detail)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8aJ3rFpo03X7Fq3H-rf9-68" value="biz_id------------------------------------&amp;gt;业务唯一键&lt;br&gt;invite_biz_id------------&amp;gt;邀约id(邀约表业务主键&lt;br&gt;invited_user-------------------------&amp;gt;被邀约人姓名&lt;br&gt;invited_phone--------------------&amp;gt;被邀约人手机号&lt;br&gt;invited_company_name-----&amp;gt;被邀约人公司名称&lt;br&gt;status----&amp;gt;1、接受邀请 2、拒绝邀请 3、未反馈&lt;br&gt;invited_type_biz_id---------------------------&amp;gt;类型" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="482.75" y="1440" width="294.5" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="8aJ3rFpo03X7Fq3H-rf9-69" value="邀约表&lt;br&gt;(invite_manage)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="882.25" y="1380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8aJ3rFpo03X7Fq3H-rf9-70" value="biz_id------------------------------------&amp;gt;业务唯一键&lt;br&gt;invite_subjet------------------------------&amp;gt;邀约主题&lt;br&gt;invite_time_start------------------&amp;gt;时间-开始时间&lt;br&gt;invite_time_end-------------------&amp;gt;时间-结束时间&lt;br&gt;zone_biz_id-------------------------------------&amp;gt;园区&lt;br&gt;balcony_biz_id---------------------------------&amp;gt;楼座&lt;br&gt;room_name---------------------------------&amp;gt;房间号&lt;br&gt;invite_reason----------------------------&amp;gt;邀约事由&lt;br&gt;invite_note-------------------------------------&amp;gt;备注&lt;br&gt;video_platform--------------------&amp;gt;视频会议平台&lt;br&gt;video_addr-------------------------&amp;gt;视频会议地址&lt;br&gt;is_conference---&amp;gt;是否是会议中心发送的邀请&lt;br&gt;meeting_id----------------------------------&amp;gt;会议id" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="1440" width="285" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="8aJ3rFpo03X7Fq3H-rf9-71" value="调用iHaier接口日志记录（message_interface_request_log）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="1660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8aJ3rFpo03X7Fq3H-rf9-72" value="biz_id----------------------------------------&amp;gt;业务ID&lt;br&gt;todo_id------------&amp;gt;待办id对应申请表bizid字段&lt;br&gt;service_name----------------------------&amp;gt;服务名称&lt;br&gt;status----&amp;gt;请求状态 1、成功 2、失败 3、报错&lt;br&gt;request_url-------------------------------&amp;gt;请求地址&lt;br&gt;request_param--------------------------&amp;gt;请求参数&lt;br&gt;response_info----------------------------&amp;gt;返回信息&lt;br&gt;response_code------------------------&amp;gt;返回code&lt;br&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-172.5" y="1710" width="285" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="8aJ3rFpo03X7Fq3H-rf9-73" value="消息表&lt;br&gt;（message_manage）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="197" y="1660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8aJ3rFpo03X7Fq3H-rf9-74" value="biz_id------------------------------------------------&amp;gt;业务唯一键&lt;br&gt;message_title----------------------------------------&amp;gt;消息标题&lt;br&gt;message_content-----------------------------------&amp;gt;消息内容&lt;br&gt;is_read------------------------------&amp;gt;是否已读(0-未读;1-已读)&lt;br&gt;is_system--&amp;gt;消息类型(0预约消息;1系统消息;2邀约消息)&lt;br&gt;read_time----------------------------------------&amp;gt;消息读取时间&lt;br&gt;receiver_user---------------------------------------------&amp;gt;接收人&lt;br&gt;message_id---&amp;gt;预约消息/系统消息/邀约消息业务主键id" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="119.75" y="1710" width="315" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="8aJ3rFpo03X7Fq3H-rf9-75" value="业务唯一键" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1570" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8aJ3rFpo03X7Fq3H-rf9-76" value="read_time" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="1550" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8aJ3rFpo03X7Fq3H-rf9-79" value="通知模板分类&lt;br&gt;(notice_template_category_config)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8aJ3rFpo03X7Fq3H-rf9-80" value="biz_id------------------------&amp;gt;业务唯一键&lt;br&gt;category_name-----------&amp;gt;模板分类名称&lt;br&gt;notice_type- ---------&amp;gt;通知方式(通知方式，短信，2微信，3ihaier2.0，4邮件)&lt;br&gt;category_pic-------------------&amp;gt;分类图片" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="535" y="1700" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="8aJ3rFpo03X7Fq3H-rf9-81" value="通知模板&lt;br&gt;(notice_template_config)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="1880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8aJ3rFpo03X7Fq3H-rf9-82" value="biz_id------------------------------&amp;gt;业务唯一键&lt;br&gt;template_name--------------------&amp;gt;模板名称&lt;br&gt;template_content------------------&amp;gt;模板内容&lt;br&gt;template_category_biz_id--&amp;gt;模板分类(通知模板表业务唯一主键)&lt;br&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-204.49" y="1940" width="350.49" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8aJ3rFpo03X7Fq3H-rf9-83" value="登录记录表&lt;br&gt;(registration_record)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="214" y="1881" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8aJ3rFpo03X7Fq3H-rf9-84" value="biz_id-------------------&amp;gt;业务唯一键&lt;br&gt;user_id----------------------&amp;gt;用户id&lt;br&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="161.5" y="1949" width="217" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8aJ3rFpo03X7Fq3H-rf9-85" value="来访事由配置&lt;br&gt;(visit_reason_config)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="1881" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8aJ3rFpo03X7Fq3H-rf9-86" value="biz_id-------------&amp;gt;业务唯一键&lt;br&gt;visit_reason--------&amp;gt;来访事由(1业务交流、2培训学习、&lt;br&gt;3商务洽谈、4会议参会、5接送货物)&lt;br&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="444" y="1941" width="297" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="8aJ3rFpo03X7Fq3H-rf9-87" value="访客信息表&lt;br&gt;(visit_user)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="2050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8aJ3rFpo03X7Fq3H-rf9-88" value="biz_id-----------------&amp;gt;业务ID&lt;br&gt;visitor_id---------------&amp;gt;访客id&lt;br&gt;name----------------------&amp;gt;姓名&lt;br&gt;phone------------------&amp;gt;手机号&lt;br&gt;password-----------&amp;gt;登录密码&lt;br&gt;company_name---&amp;gt;公司名称&lt;br&gt;car_number--------&amp;gt;车辆牌号&lt;br&gt;user_pic-------------------&amp;gt;照片&lt;br&gt;type-------------------&amp;gt;访客类型&lt;br&gt;open_id------------用户openId&lt;br&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-139.24" y="2100" width="220" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="8aJ3rFpo03X7Fq3H-rf9-89" value="预约表基本信息&lt;br&gt;(visitor_appoint)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="2050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8aJ3rFpo03X7Fq3H-rf9-90" value="biz_id----------------------------------------&amp;gt;业务唯一键&lt;br&gt;visitor_biz_id--------------------------------------&amp;gt;访客id&lt;br&gt;visitor_type_biz_id----------访客类型表业务唯一键&lt;br&gt;invite_user----------------------------------------&amp;gt;邀约人&lt;br&gt;invite_biz_id---------------------------------------&amp;gt;邀约id&lt;br&gt;visited_account-----------------------------&amp;gt;被访人账号&lt;br&gt;invite_type-----------------&amp;gt;预约方式 0、预约 1、邀约&lt;br&gt;check_time---------------------------------------&amp;gt;审核时间&lt;br&gt;check_user---------------------------------------------&amp;gt;审核人&lt;br&gt;check_status---------&amp;gt;审核状态，0待审核，1审核通过，&lt;br&gt;2 审核驳回，3已失效，4已取消，5已完成&lt;br&gt;refuse_reason----------------------------------&amp;gt;&amp;nbsp;审核驳回理由&lt;br&gt;sign_in_time------------------------------------------&amp;gt;签入时间&lt;br&gt;sign_out_time-----------------------------------------&amp;gt;签出时间&lt;br&gt;sign_in_stat--------&amp;gt;签入状态（1手工签到，2扫码签到，&lt;br&gt;3闸机通过签到）&lt;br&gt;sign_out_state------------------&amp;gt;签出状态（1：手工签到，&lt;br&gt;2：扫码签到，3：闸机通过签到）&lt;br&gt;qr_code---------------------------------------------&amp;gt;访客二维码" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="94.75" y="2110" width="345.25" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="8aJ3rFpo03X7Fq3H-rf9-91" value="预约详情表&lt;br&gt;(visitor_appoint_detail)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="2050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8aJ3rFpo03X7Fq3H-rf9-92" value="biz_id-------------------------------------------------&amp;gt;业务唯一键&lt;br&gt;appoint_biz_id-----------------------------&amp;gt;预约表业务唯一键&lt;br&gt;form_biz_id------------------&amp;gt;预约表单表模板表业务唯一键&lt;br&gt;control_biz_id---------------------&amp;gt;控件表模板表业务唯一键&lt;br&gt;control_name--------------------------&amp;gt;控件/自定义控件名称&lt;br&gt;control_value---------------------------------------------&amp;gt;控件值&lt;br&gt;control_type---------------------------&amp;gt;控件/自定义控件类型&lt;br&gt;enumerated_values---------------------&amp;gt;单选/多选框枚举值&lt;br&gt;is_required--------&amp;gt;是否为必选控件，1 表示是，0 表示否&lt;br&gt;tab_item--------------------&amp;gt;所属tab项，1访客基本信息，2&lt;br&gt;被访人基本信息，3其它信息&lt;br&gt;check_rule--------------------------------------&amp;gt;&amp;nbsp;字段校验规则&lt;br&gt;max_length--------------------------------------&amp;gt;字段最大长度&lt;br&gt;min_length---------------------------------------&amp;gt;字段最小长度&lt;br&gt;is_multiplexing-------&amp;gt;是否可以复用,1 表示是，0 表示否&lt;br&gt;is_edit-----------&amp;gt;控件名称是否可编辑 ，1 、是，0、&amp;nbsp; 否&lt;br&gt;control_index------------------------------------------------&amp;gt;序号&lt;br&gt;control_desc-------------------------------------------&amp;gt;控件描述" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="467.5" y="2110" width="345" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="8aJ3rFpo03X7Fq3H-rf9-93" value="访客端banner配置&lt;br&gt;(visitor_client_banner_config)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="2420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8aJ3rFpo03X7Fq3H-rf9-94" value="biz_id----------------&amp;gt;业务唯一键&lt;br&gt;banner_title-----------------&amp;gt;标题&lt;br&gt;banner_pic------------------&amp;gt;图片&lt;br&gt;banner_desc----------------&amp;gt;描述&lt;br&gt;url------------------&amp;gt;广告链接URL&lt;br&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-139.24" y="2480" width="194" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
