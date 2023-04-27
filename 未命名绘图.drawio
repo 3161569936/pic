@@ -1,54 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2023-04-23T14:32:53.731Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="cGw30m9tr6LrVf66rqWg" version="21.2.1" type="github">
-  <diagram name="第 1 页" id="IzAHfQofP7M0hh21eSk1">
-    <mxGraphModel dx="1221" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2023-04-27T02:42:05.978Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.2.1" etag="KHZdKdvs1Ny9f2tekn70" type="github">
+  <diagram name="第 1 页" id="S5CsdBfcWxi_x1L4hnpd">
+    <mxGraphModel>
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ZmP4rZsU_zYs1s5I1XW7-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=4;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="ZmP4rZsU_zYs1s5I1XW7-2" target="ZmP4rZsU_zYs1s5I1XW7-8" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ZmP4rZsU_zYs1s5I1XW7-2" value="git项目到本地" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="143" y="184" width="190" height="58" as="geometry" />
-        </mxCell>
-        <mxCell id="ZmP4rZsU_zYs1s5I1XW7-6" value="根据项目具体的业务需求学习&lt;br&gt;该项业务的具体实现过程" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="414" y="391" width="190" height="58" as="geometry" />
-        </mxCell>
-        <mxCell id="ZmP4rZsU_zYs1s5I1XW7-7" value="阅读能收集到的该项目的相关文档，熟悉项目架构和功能" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="143" y="375" width="190" height="58" as="geometry" />
-        </mxCell>
-        <mxCell id="ZmP4rZsU_zYs1s5I1XW7-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=5;" parent="1" source="ZmP4rZsU_zYs1s5I1XW7-8" target="ZmP4rZsU_zYs1s5I1XW7-7" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ZmP4rZsU_zYs1s5I1XW7-8" value="在项目的dev(开发主分支)&lt;br&gt;检自己的分支" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="143" y="278" width="190" height="58" as="geometry" />
-        </mxCell>
-        <mxCell id="ZmP4rZsU_zYs1s5I1XW7-9" value="获取项目中数据库的配置信息，在数据库建立连接学习表结构设计" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="380" y="290" width="190" height="58" as="geometry" />
-        </mxCell>
-        <mxCell id="ZmP4rZsU_zYs1s5I1XW7-20" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;rotation=-135;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="340" y="309" width="20" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="ZmP4rZsU_zYs1s5I1XW7-23" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;rotation=-75;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="363" y="375" width="20" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="ZmP4rZsU_zYs1s5I1XW7-24" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;rotation=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="493" y="448" width="12" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="ZmP4rZsU_zYs1s5I1XW7-31" value="数据库数据处理&lt;br&gt;（Dao层）" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="407" y="700" width="170" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="ZmP4rZsU_zYs1s5I1XW7-32" value="逻辑处理&lt;br&gt;（Service层）" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="410" y="596" width="170" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="ZmP4rZsU_zYs1s5I1XW7-33" value="请求处理&lt;br&gt;（Controller层）" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="410" y="492" width="170" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="ZmP4rZsU_zYs1s5I1XW7-34" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;rotation=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="489" y="646" width="12" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="ZmP4rZsU_zYs1s5I1XW7-35" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;rotation=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="489" y="542" width="12" height="58" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
